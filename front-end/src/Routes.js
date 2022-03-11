@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { UserInfoPage } from './pages/UserInfoPage';
 import { LogInPage } from './pages/LoginPage';
+import { SignUpPage } from './pages/SignUpPage';
 
 export const Routes = () => {
     return (
@@ -11,6 +12,9 @@ export const Routes = () => {
                 </Route>
                 <Route path="/login" exact>
                     <LogInPage />
+                </Route>
+                <Route path="/signup" exact>
+                    <SignUpPage />
                 </Route>
             </Switch>
         </Router>
