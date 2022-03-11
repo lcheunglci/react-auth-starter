@@ -40,7 +40,7 @@ export const SignUpPage = () => {
             <button onClick={() => history.push('/forgot-password')}>
                 Forgot your password?
             </button>
-            <button onClick={() => history.push('/login>')} >Already have an account? Log In</button>
+            <button onClick={() => history.push('/login')} >Already have an account? Log In</button>
         </div>
     )
 };

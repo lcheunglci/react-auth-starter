@@ -32,7 +32,7 @@ export const LogInPage = () => {
             <button onClick={() => history.push('/forgot-password')}>
                 Forgot your password?
             </button>
-            <button onClick={() => history.push('/signup>')} >Don't have an account? Sign up</button>
+            <button onClick={() => history.push('/signup')} >Don't have an account? Sign up</button>
         </div>
     )
 };
