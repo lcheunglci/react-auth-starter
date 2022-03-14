@@ -40,7 +40,7 @@ export const signUpRoute = {
         {
             expiresIn: '2d'
         },
-        (error, token) => {
+        (err, token) => {
             if (err) {
                 return res.result(500).send(err);
             } 
